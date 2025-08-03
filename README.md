@@ -27,8 +27,7 @@ Clone the Repository
 git clone https://github.com/yourusername/django-weather-app.git
 cd django-weather-app
 
-* Create Virtual Environment & Activate
-* 
+* Create Virtual Environment & Activate 
 python -m venv env
 source env/bin/activate  # On Windows: env\Scripts\activate
 
