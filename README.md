@@ -41,7 +41,7 @@ Replace api_key = 'YOUR_API_KEY' with your actual API Key
 
 * Run Migrations & Start Server
 python manage.py migrate
-python manage.py runserver
+python manage.py runserver.
 
 
 🧩 API Usage Flow
