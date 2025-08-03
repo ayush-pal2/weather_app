@@ -5,7 +5,7 @@ def home(request):
     weather_data = None
     if request.method == 'POST':
         city = request.POST.get('city')
-        api_key = '{Your_api}'
+        api_key = '{Your_api_key}'
         
         # First API Call: Get lat & lon
         geo_url = f'http://api.openweathermap.org/geo/1.0/direct?q={city}&appid={api_key}'
